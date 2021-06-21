@@ -22,6 +22,15 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  background-color: white;
+  color: black;
+}
+body{
+  height: 95vh !important;
+  border: solid 20px;
+  border-bottom: solid 300px;
+  border-image: linear-gradient(rgb(92, 168, 219), rgb(240, 100, 100), rgb(101, 223, 156));
+  border-image-slice: 1;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
